@@ -8,6 +8,8 @@
   * [Structure](#Structure)
   * [Installation](#Installation)
   * [Execution](#Execution)
+  * [Discussion](#Discussion)
+  * 
   * [License](#License)
   * [Contact](#Contact)
 
@@ -48,7 +50,7 @@
 <ul>
 <li>In Terminal, locate the application folder, 'cd' into it.</li>
 <li>Run the NPM Install command which will install the following dependencies based on the package.json:
-  <ol>
+  <ul>
   <li>bcryptjs</li>
   <li>express</li>
   <li>express-session</li>
@@ -56,7 +58,7 @@
   <li>passport</li>
   <li>passport-local</li>
   <li>sequelize</li>
-  </ol>
+  </ul>
 </li>
 <li>In MySQL Workbench, create a query containing the following code:
   <ul style="list-style: none;">
@@ -87,18 +89,31 @@
 <li>Once the tables are generated and the index shown, the application will execute:<br />Listening on port 8080. Visit http://localhost:8080/ in your browser.</li>
 </ul>
 
-## Screenshots
-
 ![Sequelize Authentication Application — Databases Creation Process in MySQL Workbench (PNG)](./demo_assets/ucla-hw14-reverse-engineering-authentication-sequelize-1-mysql-workbench-creating-databases.png "Sequelize Authentication Application — Databases Creation Process in MySQL Workbench (PNG)")
-<p>Fig. 1. Sequelize Authentication Application — Databases Creation Process in MySQL Workbench (PNG)</p>
+<p>Fig. 1. Sequelize Authentication Application — Databases Creation Process in MySQL Workbench (PNG)
 <br />
 
 ![Sequelize Authentication Application — Database tables creation in Terminal prior to launching the application (PNG)](./demo_assets/ucla-hw14-reverse-engineering-authentication-sequelize-2-terminal-node-server-js.png "Sequelize Authentication Application — Database tables creation in Terminal prior to launching the application (PNG)")
 <p>Fig. 2. Sequelize Authentication Application — Database tables creation in Terminal prior to launching the application (PNG)</p>
 <br />
 
-## Inside the Application
+## Execution
 
+![Sequelize Authentication Application — In Browser Application Execution: User Registration (PNG)](./demo_assets/ucla-hw14-reverse-engineering-authentication-sequelize-3-in-browser-application-user-registration.png "Sequelize Authentication Application — In Browser Application Execution: User Registration (PNG)")
+<p>Fig. 3. Sequelize Authentication Application — Application Execution in Browser Setting: User Registration (PNG)</p>
+
+![Sequelize Authentication Application — In Browser Application Execution: User Registration Confirmation (PNG)](./demo_assets/ucla-hw14-reverse-engineering-authentication-sequelize-4-in-browser-application-user-registration-receipt.png "Sequelize Authentication Application — In Browser Application Execution: User Registration Confirmation (PNG)")
+<p>Fig. 4. Sequelize Authentication Application — Application Execution in Browser Setting: User Registration Confirmation (PNG)</p>
+
+## Frameworks
+<ul>
+<li>Node.js</li>
+<li>Sequelize</li>
+<li>Passport</li>
+<li>Express</li>
+<li>MySQL</li>
+<li><a href="https://www.npmjs.com/package/bcryptjs" title="bcryptjs (Encription JS Library)">bcryptjs (Encription JS Library)</a></li>
+</ul>
 
 ## License
 <p>
