@@ -11,35 +11,36 @@
 
 ## Structure
 
-Develop
-├── config
-│   ├── config.json
-│   ├── passport.js
-│   └── middleware
-│  	    └── isAuthenticated.js
-│
-├── models
-│   ├── index.js
-│   └── user.js
-│
-├── package.json
-│
-├── public
-│   ├── login.html
-│   ├── members.html
-│   ├── signup.html
-│   └── js
-│  	    ├── login.js
-│  	    ├── members.js
-│  	    └── signup.js
-│   └── stylesheets
-│  	    └── style.css
-│
-├── routes
-│   ├── api-routes.js
-│   └── html-routes.js
-│
+<p>Develop<br />
+├── config<br />
+│   ├── config.json<br />
+│   ├── passport.js<br />
+│   └── middleware<br />
+│  	    └── isAuthenticated.js<br />
+│<br />
+├── models<br />
+│   ├── index.js<br />
+│   └── user.js<br />
+│<br />
+├── package.json<br />
+│<br />
+├── public<br />
+│   ├── login.html<br />
+│   ├── members.html<br />
+│   ├── signup.html<br />
+│   └── js<br />
+│  	    ├── login.js<br />
+│  	    ├── members.js<br />
+│  	    └── signup.js<br />
+│   └── stylesheets<br />
+│  	    └── style.css<br />
+│<br />
+├── routes<br />
+│   ├── api-routes.js<br />
+│   └── html-routes.js<br />
+│<br />
 └── server.js
+</p>
 
 ## License
 <p>
