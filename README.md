@@ -119,7 +119,7 @@
 ![Sequelize Authentication Application — In Browser Application Execution: User Registration (PNG)](./demo_assets/ucla-hw14-reverse-engineering-authentication-sequelize-3-in-browser-application-user-registration.png "Sequelize Authentication Application — In Browser Application Execution: User Registration (PNG)")
 <p>Fig. 3. Sequelize Authentication Application — Application Execution in Browser Setting: User Registration (PNG)</p>
 
-![Sequelize Authentication Application — In Browser Application Execution: User Registration (PNG)](./demo_assets/ucla-hw14-reverse-engineering-authentication-sequelize-3-in-browser-application-user-registration.png "Sequelize Authentication Application — In Browser Application Execution: User Registration (PNG)")
+![Sequelize Authentication Application — In Browser Application Execution: Alerady Existing User (PNG)](./demo_assets/ucla-hw14-reverse-engineering-authentication-sequelize-3a-red-alert-already-existing-user.png "Sequelize Authentication Application — In Browser Application Execution: Already Existing User (PNG)")
 <p>Fig. 3a. Sequelize Authentication Application — Red Alert! Already Existing User (PNG)</p>
 
 ![Sequelize Authentication Application — In Browser Application Execution: User Registration Confirmation (PNG)](./demo_assets/ucla-hw14-reverse-engineering-authentication-sequelize-4-in-browser-application-user-registration-receipt.png "Sequelize Authentication Application — In Browser Application Execution: User Registration Confirmation (PNG)")
