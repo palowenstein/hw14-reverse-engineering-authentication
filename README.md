@@ -99,7 +99,8 @@
   <li>Executing (default): SHOW INDEX FROM `Users` FROM `passport_demo`</li>
   </ul>
   </code>
-<li>Once the tables are generated and the index shown, the application will execute:<br />Listening on port 8080. Visit http://localhost:8080/ in your browser.</li>
+<li>Once the tables are generated and the index shown, the application will execute:
+<br /><code>Listening on port 8080. Visit http://localhost:8080/ in your browser.</code></li>
 </ul>
 
 ## Installation-Screenshots
