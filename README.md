@@ -7,7 +7,9 @@
 # Table of Contents
   * [Structure](#Structure)
   * [Installation](#Installation)
+  * [Installation-Screenshots](#Installation-Screenshots)
   * [Execution](#Execution)
+  * [Execution-Screenshots](#Execution-Screenshots)
   * [Discussion](#Discussion)
   * [References](#References)
   * [License](#License)
@@ -51,7 +53,8 @@
 <li>In Terminal, locate the application folder, 'cd' into it.</li>
 <li>Run the NPM Install command which will install the following dependencies based on the package.json:
 <br />
-  <ul>
+  <code>
+  <ul style="list-style-type: none;">
   <li>bcryptjs</li>
   <li>express</li>
   <li>express-session</li>
@@ -60,6 +63,7 @@
   <li>passport-local</li>
   <li>sequelize</li>
   </ul>
+  </code>
 <br />
 </li>
 <li>In MySQL Workbench, create a query containing the following code:
@@ -68,10 +72,10 @@
   <ul style="list-style-type: none;">
   <li>DROP SCHEMA IF EXISTS passport_demo;</li>
   <li>CREATE SCHEMA passport_demo;</li>
-  <li></li>
+  <li style="list-style: none;"></li>
   <li>DROP SCHEMA IF EXISTS database_test;</li>
   <li>CREATE SCHEMA database_test;</li>
-  <li></li>
+  <li style="list-style: none;"></li>
   <li>DROP SCHEMA IF EXISTS database_production;</li>
   <li>CREATE SCHEMA database_production;</li>
   </ul>
@@ -81,6 +85,7 @@
 <li>Click on the bolt symbol to execute the query, this will create the databases needed for the application to run.</li>
 <li>Back in Terminal, type "node server.js", this will generate the tables needed for the databases and start the application.</li>
 <li>In Terminal, the following tables generation should appear:
+<br />
   <code>
   <ul style="list-style-type: none;">
   <li>Executing (default): CREATE TABLE IF NOT EXISTS `Users`(</li>
@@ -94,8 +99,12 @@
   <li>Executing (default): SHOW INDEX FROM `Users` FROM `passport_demo`</li>
   </ul>
   </code>
-<li>Once the tables are generated and the index shown, the application will execute:<br />Listening on port 8080. Visit http://localhost:8080/ in your browser.</li>
+<li>Once the tables are generated and the index shown, the application will execute:
+    <p><code>Listening on port 8080. Visit http://localhost:8080/ in your browser.</code></p>
+</li>
 </ul>
+
+## Installation-Screenshots
 
 ![Sequelize Authentication Application — Databases Creation Process in MySQL Workbench (PNG)](./demo_assets/ucla-hw14-reverse-engineering-authentication-sequelize-1-mysql-workbench-creating-databases.png "Sequelize Authentication Application — Databases Creation Process in MySQL Workbench (PNG)")
 <p>Fig. 1. Sequelize Authentication Application — Databases Creation Process in MySQL Workbench (PNG)
@@ -116,6 +125,8 @@
 <li>Everytime you log in, or sign up as another new user, you will be taken to the welcome page.</li>
 </ul>
 
+## Execution-Screenshots
+
 ![Sequelize Authentication Application — In Browser Application Execution: User Registration (PNG)](./demo_assets/ucla-hw14-reverse-engineering-authentication-sequelize-3-in-browser-application-user-registration.png "Sequelize Authentication Application — In Browser Application Execution: User Registration (PNG)")
 <p>Fig. 3. Sequelize Authentication Application — Application Execution in Browser Setting: User Registration (PNG)</p>
 
@@ -125,7 +136,7 @@
 ![Sequelize Authentication Application — In Browser Application Execution: User Registration Confirmation (PNG)](./demo_assets/ucla-hw14-reverse-engineering-authentication-sequelize-4-in-browser-application-user-registration-receipt.png "Sequelize Authentication Application — In Browser Application Execution: User Registration Confirmation (PNG)")
 <p>Fig. 4. Sequelize Authentication Application — Application Execution in Browser Setting: User Registration Confirmation (PNG)</p>
 
-## Frameworks
+## References
 <ul>
 <li>Node.js</li>
 <li>Sequelize</li>
