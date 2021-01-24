@@ -100,7 +100,8 @@
   </ul>
   </code>
 <li>Once the tables are generated and the index shown, the application will execute:
-<br /><code>Listening on port 8080. Visit http://localhost:8080/ in your browser.</code></li>
+    <p><code>Listening on port 8080. Visit http://localhost:8080/ in your browser.</code></p>
+</li>
 </ul>
 
 ## Installation-Screenshots
