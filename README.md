@@ -70,10 +70,10 @@
   <ul style="list-style-type: none;">
   <li>DROP SCHEMA IF EXISTS passport_demo;</li>
   <li>CREATE SCHEMA passport_demo;</li>
-  <li></li>
+  <li style="list-style: none;"></li>
   <li>DROP SCHEMA IF EXISTS database_test;</li>
   <li>CREATE SCHEMA database_test;</li>
-  <li></li>
+  <li style="list-style: none;"></li>
   <li>DROP SCHEMA IF EXISTS database_production;</li>
   <li>CREATE SCHEMA database_production;</li>
   </ul>
