@@ -51,7 +51,8 @@
 <li>In Terminal, locate the application folder, 'cd' into it.</li>
 <li>Run the NPM Install command which will install the following dependencies based on the package.json:
 <br />
-  <ul>
+  <code>
+  <ul style="list-style-type: none;">
   <li>bcryptjs</li>
   <li>express</li>
   <li>express-session</li>
@@ -60,6 +61,7 @@
   <li>passport-local</li>
   <li>sequelize</li>
   </ul>
+  </code>
 <br />
 </li>
 <li>In MySQL Workbench, create a query containing the following code:
@@ -81,6 +83,7 @@
 <li>Click on the bolt symbol to execute the query, this will create the databases needed for the application to run.</li>
 <li>Back in Terminal, type "node server.js", this will generate the tables needed for the databases and start the application.</li>
 <li>In Terminal, the following tables generation should appear:
+<br />
   <code>
   <ul style="list-style-type: none;">
   <li>Executing (default): CREATE TABLE IF NOT EXISTS `Users`(</li>
