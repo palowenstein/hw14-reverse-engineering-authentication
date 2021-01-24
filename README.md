@@ -9,7 +9,7 @@
   * [Installation](#Installation)
   * [Execution](#Execution)
   * [Discussion](#Discussion)
-  * 
+  * [References](#References)
   * [License](#License)
   * [Contact](#Contact)
 
@@ -50,6 +50,7 @@
 <ul>
 <li>In Terminal, locate the application folder, 'cd' into it.</li>
 <li>Run the NPM Install command which will install the following dependencies based on the package.json:
+<br />
   <ul>
   <li>bcryptjs</li>
   <li>express</li>
@@ -59,9 +60,12 @@
   <li>passport-local</li>
   <li>sequelize</li>
   </ul>
+<br />
 </li>
 <li>In MySQL Workbench, create a query containing the following code:
-  <ul style="list-style: none;">
+<br />
+  <code>
+  <ul style="list-style-type: none;">
   <li>DROP SCHEMA IF EXISTS passport_demo;</li>
   <li>CREATE SCHEMA passport_demo;</li>
   <li></li>
@@ -71,11 +75,14 @@
   <li>DROP SCHEMA IF EXISTS database_production;</li>
   <li>CREATE SCHEMA database_production;</li>
   </ul>
+  </code>
+<br />
 </li>
 <li>Click on the bolt symbol to execute the query, this will create the databases needed for the application to run.</li>
 <li>Back in Terminal, type "node server.js", this will generate the tables needed for the databases and start the application.</li>
 <li>In Terminal, the following tables generation should appear:
-  <ul style="list-style: none;">
+  <code>
+  <ul style="list-style-type: none;">
   <li>Executing (default): CREATE TABLE IF NOT EXISTS `Users`(</li>
   <li>`id` INTEGER NOT NULL auto_increment ,</li>
   <li>`email` VARCHAR(255) NOT NULL UNIQUE,</li>
@@ -86,6 +93,7 @@
   <li>) ENGINE=InnoDB;</li>
   <li>Executing (default): SHOW INDEX FROM `Users` FROM `passport_demo`</li>
   </ul>
+  </code>
 <li>Once the tables are generated and the index shown, the application will execute:<br />Listening on port 8080. Visit http://localhost:8080/ in your browser.</li>
 </ul>
 
@@ -99,8 +107,20 @@
 
 ## Execution
 
+<ul>
+<li>In your browser of choice, type <kbd>localhost:8080</kbd>, this will load the application.</li>
+<li>When facing the sign up form, type an e-mail address and a password.</li>
+<li>If the e-mail had already been added to the database, a red alert box will appear.</li>
+<li>If the e-mail is new, you will be taken to your welcome page.</li>
+<li>From there, you can log out and log in again but, this time, as a previously registered user.</li>
+<li>Everytime you log in, or sign up as another new user, you will be taken to the welcome page.</li>
+</ul>
+
 ![Sequelize Authentication Application — In Browser Application Execution: User Registration (PNG)](./demo_assets/ucla-hw14-reverse-engineering-authentication-sequelize-3-in-browser-application-user-registration.png "Sequelize Authentication Application — In Browser Application Execution: User Registration (PNG)")
 <p>Fig. 3. Sequelize Authentication Application — Application Execution in Browser Setting: User Registration (PNG)</p>
+
+![Sequelize Authentication Application — In Browser Application Execution: User Registration (PNG)](./demo_assets/ucla-hw14-reverse-engineering-authentication-sequelize-3-in-browser-application-user-registration.png "Sequelize Authentication Application — In Browser Application Execution: User Registration (PNG)")
+<p>Fig. 3a. Sequelize Authentication Application — Red Alert! Already Existing User (PNG)</p>
 
 ![Sequelize Authentication Application — In Browser Application Execution: User Registration Confirmation (PNG)](./demo_assets/ucla-hw14-reverse-engineering-authentication-sequelize-4-in-browser-application-user-registration-receipt.png "Sequelize Authentication Application — In Browser Application Execution: User Registration Confirmation (PNG)")
 <p>Fig. 4. Sequelize Authentication Application — Application Execution in Browser Setting: User Registration Confirmation (PNG)</p>
