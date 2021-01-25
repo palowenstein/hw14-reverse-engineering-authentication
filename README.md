@@ -17,7 +17,7 @@
 
 ## Structure
 
-![Sequelize Authentication Application — Tree Structure (PNG)](./demo_assets/ucla-hw14-reverse-engineering-authentication-sequelize-0-application-tree-structure "Sequelize Authentication Application — Tree Structure (PNG)")
+![Sequelize Authentication Application — Tree Structure (PNG)](./demo_assets/ucla-hw14-reverse-engineering-authentication-sequelize-0-application-tree-structure.png "Sequelize Authentication Application — Tree Structure (PNG)")
 <p>Fig. 0. Sequelize Authentication Application — Tree Structure (PNG)</p>
 <br />
 
