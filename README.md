@@ -17,40 +17,13 @@
 
 ## Structure
 
-<p>Develop<br />
-├── config<br />
-│   ├── config.json<br />
-│   ├── passport.js<br />
-│   └── middleware<br />
-│  	    └── isAuthenticated.js<br />
-│<br />
-├── models<br />
-│   ├── index.js<br />
-│   └── user.js<br />
-│<br />
-├── package.json<br />
-│<br />
-├── public<br />
-│   ├── login.html<br />
-│   ├── members.html<br />
-│   ├── signup.html<br />
-│   └── js<br />
-│  	    ├── login.js<br />
-│  	    ├── members.js<br />
-│  	    └── signup.js<br />
-│   └── stylesheets<br />
-│  	    └── style.css<br />
-│<br />
-├── routes<br />
-│   ├── api-routes.js<br />
-│   └── html-routes.js<br />
-│<br />
-└── server.js
-</p>
+![Sequelize Authentication Application — Tree Structure (PNG)](./demo_assets/ucla-hw14-reverse-engineering-authentication-sequelize-0-application-tree-structure.png "Sequelize Authentication Application — Tree Structure (PNG)")
+<p>Fig. 0. Sequelize Authentication Application — Tree Structure (PNG)</p>
+<br />
 
 ## Installation
 <ul>
-<li>In Terminal, locate the application folder, 'cd' into it.</li>
+<li>In Terminal, locate the application folder, move into it with <kbd>cd application</kbd> command.</li>
 <li>Run the NPM Install command which will install the following dependencies based on the package.json:
 <br />
   <code>
@@ -117,7 +90,7 @@
 ## Execution
 
 <ul>
-<li>In your browser of choice, type <kbd>localhost:8080</kbd>, this will load the application.</li>
+<li>In your browser, type <kbd>localhost:8080</kbd>, this will load the application.</li>
 <li>When facing the sign up form, type an e-mail address and a password.</li>
 <li>If the e-mail had already been added to the database, a red alert box will appear.</li>
 <li>If the e-mail is new, you will be taken to your welcome page.</li>

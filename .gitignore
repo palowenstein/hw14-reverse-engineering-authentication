@@ -1,2 +1,3 @@
 .DS_Store
-node_modules/
+Develop/.DS_Store
+Develop/node_modules/
