@@ -1,0 +1,45 @@
+{
+  "name": "1-Passport-Example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "2.4.3",
+    "express": "^4.17.0",
+    "express-session": "^1.16.1",
+    "mysql2": "^1.6.5",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "sequelize": "^5.22.3"
+  }
+}
+
+/* 1. package.json
+
+This file, the first to be executed in Node via the npm install command, contains:
+
+• information about the application: name, version, descriptive and main application file (server.js).
+• a scripts section containing a test command (not specified), the application start command (node server.js)
+as well as the nodemon command (nodemon server.js) to allow for the server to run continuously
+and apply changes done in the code base while the application is running.
+• keywords (empty), author (empty), license (ISC - Internet Software Consortium Permissive Free License).
+• dependencies: 
+
+    bcryptjs (password secured storage via hashes, includes a salt against rainbow table attacks)
+    express (middleware, serves HTTPs GET/POST/DELETE Requests between REST APIs)
+    express-session (generates a session ID cookie, stored in backend)
+    mysql2 (relational database, high performance MySQL client for Node)
+    passport (authentication middleware, multi-level)
+    passport-local (local option for username / password authentication)
+    sequelize (promise-based Node.js Object-Relational Mapping tied to the SQL database)
+
+When running the npm install command, a node modules folder containing all dependencies is created, plus a package-lock.json file.
+ */
