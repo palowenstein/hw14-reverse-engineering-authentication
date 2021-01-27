@@ -1,0 +1,28 @@
+{
+  "development": {
+    "username": "root",
+    "password": "Margaux0228",
+    "database": "passport_demo",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": "Margaux0228",
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": "Margaux0228",
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
+
+/* 3. config/config.json
+This file stores the connection settings needed to access, via Sequelize, the 3 respective SQL databases: development, test, production.
+The connection details for each are typical: username, password, database name, host name, dialect (mySQL).
+The presence of those settings is mandatory for the application to run. Otherwise, access to the databases is impossible. */
