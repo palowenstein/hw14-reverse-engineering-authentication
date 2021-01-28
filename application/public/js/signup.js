@@ -56,15 +56,15 @@ signUpForm.on("submit", function(event) {				Submit form function for e-mail / p
     var userData = { email: emailInput.val().trim(), password: passwordInput.val().trim() };	.val (data collection)
 													.trim (removes empty spaces)
     if (!userData.email || !userData.password) { return; }		Return if empty input fields.
-    signUpUser(userData.email, userData.password);			If e-mail / password provided, collects information (.val) and
-    emailInput.val(""); passwordInput.val(""); });			executes signUpUser function.
+    signUpUser(userData.email, userData.password);			If e-mail / password correctly provided, executes signUpUser function,
+    emailInput.val(""); passwordInput.val(""); });			clears input fields.
 
 function signUpUser(email, password) {
     $.post("/api/signup", { email: email, password: password })	posts the e-mail/password to the signup api route (api-routes.js)
-      .then(function(data) { window.location.replace("/members"); })	if correct information is returned through the promise,
-										replaces window content with /members (members page redirect).
-      .catch(handleLoginErr);  }						if in error, executes function handleLoginErr below.
+      .then(function(data) { window.location.replace("/members");	if correct information is returned through the promise,
+	})								replaces window content with /members (members page redirect).
+      .catch(handleLoginErr);  }					if in error, executes function handleLoginErr below.
   function handleLoginErr(err) {
-    $("#alert .msg").text(err.responseJSON);
-    $("#alert").fadeIn(500); }
-}); */
+    $("#alert .msg").text(err.responseJSON);				Error message Text (alert window)
+    $("#alert").fadeIn(500); }					Error Number Text (alert window) - .fadeIn makes the alert opaque.
+ */
