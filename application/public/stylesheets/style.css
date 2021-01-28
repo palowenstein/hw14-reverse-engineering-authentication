@@ -1,0 +1,9 @@
+form.signup,
+form.login {
+  margin-top: 50px;
+}
+
+/* 10. public/stylesheets/style.css
+CSS for the login and signup forms.
+Imposes a 50 pixels margin at the top of each form.
+All other settings are stock from Bootstrap. */
