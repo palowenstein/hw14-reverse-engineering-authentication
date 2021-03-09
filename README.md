@@ -11,7 +11,7 @@
   * [Installation-Screenshots](#Installation-Screenshots)
   * [Execution](#Execution)
   * [Execution-Screenshots](#Execution-Screenshots)
-  * [Discussion](#Discussion)
+  * [Walkthrough](#Walkthrough)
   * [References](#References)
   * [License](#License)
   * [Contact](#Contact)
@@ -110,7 +110,8 @@
 ![Sequelize Authentication Application — In Browser Application Execution: User Registration Confirmation (PNG)](./demo_assets/14-reverse-engineering-authentication-sequelize-4-in-browser-application-user-registration-receipt.png "Sequelize Authentication Application — In Browser Application Execution: User Registration Confirmation (PNG)")
 <p>Fig. 4. Sequelize Authentication Application — Application Execution in Browser Setting: User Registration Confirmation (PNG)</p>
 
-## Discussion
+## Walkthrough
+<p>The final dissertation (22 pages) describing this Sequelize application is currently available via a private Google Drive link. Please motivate your request.</p>
 
 ## References
 <ul>
