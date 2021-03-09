@@ -1,8 +1,9 @@
-## # hw14-reverse-engineering-authentication-sequelize
+## #14-reverse-engineering-authentication-sequelize
 ![Project license](https://img.shields.io/badge/license-MIT,https://choosealicense.com/licenses/mit/-brightgreen)
 
 <h3>Sequelize authentication application accompanied with a codebase walk-through featuring reverse engineered, commented code.</h3>
 <p>Github Repository Page: https://github.com/palowenstein/reverse-engineering-authentication-sequelize</p>
+<p>White Paper: Link provided via Bootcamp Dashboard.</p>
 
 # Table of Contents
   * [Structure](#Structure)
@@ -10,14 +11,14 @@
   * [Installation-Screenshots](#Installation-Screenshots)
   * [Execution](#Execution)
   * [Execution-Screenshots](#Execution-Screenshots)
-  * [Discussion](#Discussion)
+  * [Walkthrough](#Walkthrough)
   * [References](#References)
   * [License](#License)
   * [Contact](#Contact)
 
 ## Structure
 
-![Sequelize Authentication Application — Tree Structure (PNG)](./demo_assets/ucla-hw14-reverse-engineering-authentication-sequelize-0-application-tree-structure.png "Sequelize Authentication Application — Tree Structure (PNG)")
+![Sequelize Authentication Application — Tree Structure (PNG)](./demo_assets/14-reverse-engineering-authentication-sequelize-0-application-tree-structure.png "Sequelize Authentication Application — Tree Structure (PNG)")
 <p>Fig. 0. Sequelize Authentication Application — Tree Structure (PNG)</p>
 <br />
 
@@ -79,11 +80,11 @@
 
 ## Installation-Screenshots
 
-![Sequelize Authentication Application — Databases Creation Process in MySQL Workbench (PNG)](./demo_assets/ucla-hw14-reverse-engineering-authentication-sequelize-1-mysql-workbench-creating-databases.png "Sequelize Authentication Application — Databases Creation Process in MySQL Workbench (PNG)")
+![Sequelize Authentication Application — Databases Creation Process in MySQL Workbench (PNG)](./demo_assets/14-reverse-engineering-authentication-sequelize-1-mysql-workbench-creating-databases.png "Sequelize Authentication Application — Databases Creation Process in MySQL Workbench (PNG)")
 <p>Fig. 1. Sequelize Authentication Application — Databases Creation Process in MySQL Workbench (PNG)
 <br />
 
-![Sequelize Authentication Application — Database tables creation in Terminal prior to launching the application (PNG)](./demo_assets/ucla-hw14-reverse-engineering-authentication-sequelize-2-terminal-node-server-js.png "Sequelize Authentication Application — Database tables creation in Terminal prior to launching the application (PNG)")
+![Sequelize Authentication Application — Database tables creation in Terminal prior to launching the application (PNG)](./demo_assets/14-reverse-engineering-authentication-sequelize-2-terminal-node-server-js.png "Sequelize Authentication Application — Database tables creation in Terminal prior to launching the application (PNG)")
 <p>Fig. 2. Sequelize Authentication Application — Database tables creation in Terminal prior to launching the application (PNG)</p>
 <br />
 
@@ -100,14 +101,17 @@
 
 ## Execution-Screenshots
 
-![Sequelize Authentication Application — In Browser Application Execution: User Registration (PNG)](./demo_assets/ucla-hw14-reverse-engineering-authentication-sequelize-3-in-browser-application-user-registration.png "Sequelize Authentication Application — In Browser Application Execution: User Registration (PNG)")
+![Sequelize Authentication Application — In Browser Application Execution: User Registration (PNG)](./demo_assets/14-reverse-engineering-authentication-sequelize-3-in-browser-application-user-registration.png "Sequelize Authentication Application — In Browser Application Execution: User Registration (PNG)")
 <p>Fig. 3. Sequelize Authentication Application — Application Execution in Browser Setting: User Registration (PNG)</p>
 
-![Sequelize Authentication Application — In Browser Application Execution: Alerady Existing User (PNG)](./demo_assets/ucla-hw14-reverse-engineering-authentication-sequelize-3a-red-alert-already-existing-user.png "Sequelize Authentication Application — In Browser Application Execution: Already Existing User (PNG)")
+![Sequelize Authentication Application — In Browser Application Execution: Alerady Existing User (PNG)](./demo_assets/14-reverse-engineering-authentication-sequelize-3a-red-alert-already-existing-user.png "Sequelize Authentication Application — In Browser Application Execution: Already Existing User (PNG)")
 <p>Fig. 3a. Sequelize Authentication Application — Red Alert! Already Existing User (PNG)</p>
 
-![Sequelize Authentication Application — In Browser Application Execution: User Registration Confirmation (PNG)](./demo_assets/ucla-hw14-reverse-engineering-authentication-sequelize-4-in-browser-application-user-registration-receipt.png "Sequelize Authentication Application — In Browser Application Execution: User Registration Confirmation (PNG)")
+![Sequelize Authentication Application — In Browser Application Execution: User Registration Confirmation (PNG)](./demo_assets/14-reverse-engineering-authentication-sequelize-4-in-browser-application-user-registration-receipt.png "Sequelize Authentication Application — In Browser Application Execution: User Registration Confirmation (PNG)")
 <p>Fig. 4. Sequelize Authentication Application — Application Execution in Browser Setting: User Registration Confirmation (PNG)</p>
+
+## Walkthrough
+<p>The final 22 pages dissertation describing this Sequelize application is currently available via a private Google Drive link. Please motivate your request.</p>
 
 ## References
 <ul>
