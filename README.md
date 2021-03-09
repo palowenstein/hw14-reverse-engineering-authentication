@@ -111,7 +111,7 @@
 <p>Fig. 4. Sequelize Authentication Application — Application Execution in Browser Setting: User Registration Confirmation (PNG)</p>
 
 ## Walkthrough
-<p>The final dissertation (22 pages) describing this Sequelize application is currently available via a private Google Drive link. Please motivate your request.</p>
+<p>The final 22 pages dissertation describing this Sequelize application is currently available via a private Google Drive link. Please motivate your request.</p>
 
 ## References
 <ul>
