@@ -3,7 +3,7 @@
 
 <h3>Sequelize authentication application accompanied with a codebase walk-through featuring reverse engineered, commented code.</h3>
 <p>Github Repository Page: https://github.com/palowenstein/reverse-engineering-authentication-sequelize</p>
-<p>White Paper: Link provided via Bootcamp Dashboard.</p>
+<p>White Paper: The PDF containing the dissertation is password protected, please use the password provided via the Bootcamp Dashboard.</p>
 
 # Table of Contents
   * [Structure](#Structure)
@@ -111,7 +111,7 @@
 <p>Fig. 4. Sequelize Authentication Application — Application Execution in Browser Setting: User Registration Confirmation (PNG)</p>
 
 ## Walkthrough
-<p>The final 22 pages dissertation describing this Sequelize application is currently available via a private Google Drive link. Please motivate your request.</p>
+<p>The final, password protected 22 pages dissertation describing this Sequelize application is located in the demo_assets directory. Please use the password provided via the Bootcamp dashboard to open the document.</p>
 
 ## References
 <ul>
